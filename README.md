@@ -13,17 +13,17 @@ O foco principal foi organização, clareza e funcionamento real.
 
 🎯 Funcionalidades
 
-✔️ Lista os produtos vindos da API
+✔️ Listagem de produtos consumidos da API
 
-✔️ Busca dinâmica (filtra enquanto digita)
+✔️ Busca em tempo real pelo nome do produto
 
-✔️ Loading com animação
+✔️ Feedback visual de carregamento (loading spinner)
 
-✔️ Mensagem de erro caso a API falhe
+✔️ Tratamento de erros ao buscar produtos
 
-✔️ Layout limpo e responsivo
+✔️ Layout simples, limpo e responsivo
 
-✔️ Componentes reaproveitáveis
+✔️ Componentes separados e organizados
 
 🌐 API utilizada
 
@@ -35,7 +35,7 @@ https://aplicacaodeteste-6e15d4c66973.herokuapp.com/api/products
 👤 Autora
 
 Anna Luiza Ramalho de Sousa
-📌 GitHub: https://github.com/fuuzzyy
+GitHub: https://github.com/fuuzzyy
 
 📄 Licença
 
