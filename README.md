@@ -4,6 +4,7 @@ Aplicação React simples e funcional desenvolvida para um teste técnico, consu
 
 <div align="center">
 🔧 Tecnologias
+  
 <img src="https://img.shields.io/badge/React-149ECA?logo=react&logoColor=white&style=for-the-badge"/> <img src="https://img.shields.io/badge/TailwindCSS-38BDF8?logo=tailwindcss&logoColor=white&style=for-the-badge"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge"/> </div>
 🚀 Sobre o projeto
 
