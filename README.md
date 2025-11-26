@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+📦 Teste Técnico – Lista de Produtos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação React simples e funcional desenvolvida para um teste técnico, consumindo uma API externa e exibindo produtos com busca em tempo real.
 
-## Available Scripts
+<div align="center">
+🔧 Tecnologias
+<img src="https://img.shields.io/badge/React-149ECA?logo=react&logoColor=white&style=for-the-badge"/> <img src="https://img.shields.io/badge/TailwindCSS-38BDF8?logo=tailwindcss&logoColor=white&style=for-the-badge"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge"/> </div>
+🚀 Sobre o projeto
 
-In the project directory, you can run:
+A ideia do teste era criar uma interface simples que consumisse dados de uma API, exibisse uma lista de produtos e tivesse uma barra de busca funcional.
+O foco principal foi organização, clareza e funcionamento real.
 
-### `npm start`
+🎯 Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✔️ Lista os produtos vindos da API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✔️ Busca dinâmica (filtra enquanto digita)
 
-### `npm test`
+✔️ Loading com animação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✔️ Mensagem de erro caso a API falhe
 
-### `npm run build`
+✔️ Layout limpo e responsivo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✔️ Componentes reaproveitáveis
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🌐 API utilizada
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A aplicação consome esta API:
 
-### `npm run eject`
+https://aplicacaodeteste-6e15d4c66973.herokuapp.com/api/products
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Retorno esperado:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Produto Exemplo",
+      "price": 59.9,
+      "image": "url_da_imagem"
+    }
+  ]
+}
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📁 Estrutura do projeto
+src/
+│── App.jsx              # Lógica principal + consumo da API
+│── index.css            # TailwindCSS
+│── index.js             # Ponto inicial
+│
+└── components/
+    ├── ProductCard.jsx  # Card individual
+    └── SearchBar.jsx    # Barra de pesquisa
 
-## Learn More
+▶️ Como rodar o projeto
+1️⃣ Clonar o repositório
+git clone https://github.com/fuuzzyy/testetecnico
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2️⃣ Instalar dependências
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3️⃣ Rodar o servidor
+npm start
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Acesse em:
+➡️ http://localhost:3000
 
-### Analyzing the Bundle Size
+🏗️ Gerar build
+npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 Autora
 
-### Making a Progressive Web App
+Anna Luiza Ramalho de Sousa
+📌 GitHub: https://github.com/fuuzzyy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📄 Licença
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Licenciado sob MIT License — uso livre para fins educacionais.
