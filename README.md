@@ -25,6 +25,17 @@ O foco principal foi organização, clareza e funcionamento real.
 
 ✔️ Componentes separados e organizados
 
+▶️ Como rodar
+1. Clone o repositório  
+2. Instale as dependências: `npm install`  
+3. Inicie o projeto: `npm start`
+
+🔧 Possíveis melhorias
+- Criar testes automatizados
+- Paginação dos produtos
+- Melhorar responsividade
+
+
 🌐 API utilizada
 
 A aplicação consome esta API:
