@@ -1,9 +1,9 @@
-📦 Teste Técnico – Lista de Produtos
+Teste Técnico – Lista de Produtos
 
 Aplicação React simples e funcional desenvolvida para um teste técnico, consumindo uma API externa e exibindo produtos com busca em tempo real.
 
+ Tecnologias
 <div align="center">
-🔧 Tecnologias
   
 <img src="https://img.shields.io/badge/React-149ECA?logo=react&logoColor=white&style=for-the-badge"/> <img src="https://img.shields.io/badge/TailwindCSS-38BDF8?logo=tailwindcss&logoColor=white&style=for-the-badge"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge"/> </div>
 🚀 Sobre o projeto
